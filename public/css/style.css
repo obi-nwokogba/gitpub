@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Benne', serif;
 }
 
 body {
@@ -8,6 +9,8 @@ body {
   margin: 0 auto;
   width: 500px;
   border-top:solid 10px rgb(47, 129, 86);
+  font-family: 'Benne', serif;
+  padding-top:20px;
 }
 
 a {
@@ -19,7 +22,42 @@ img.toplogo {
   max-width: 300px;
 }
 
+img.itemphoto{
+  width:400px;
+  max-height:400px;
+  max-width:400px;
+  padding:10px;
+  border:dotted 3px rgba(24, 98, 60, 0.424);
+}
+
 .footer{
   margin:0 auto;
   width:500;
+}
+
+.price{
+  color:white;
+  margin-top:-70px;
+  font-size:4em;
+}
+
+div.menuitem{
+  border-bottom: dotted 3px rgba(126, 126, 126, 0.548);
+  padding:4px;
+  transition: 0.3s ;
+  font-size:1.3em;
+
+}
+
+div.menuitem > a{
+  text-decoration: none;
+
+}
+
+div.menuitem:hover{
+  zoom:1.1;
+}
+
+.footerbox{
+  margin-top:50px;
 }

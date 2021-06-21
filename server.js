@@ -38,7 +38,6 @@ app.get(`/drinks/:id`, (req, res) => {
     });
 })
 
-// Start server
 app.listen(3000, () => {
     console.log(`Server listening on Port: ${port}`);
 })

@@ -4,21 +4,23 @@
 
         </div>
         <div class="col-sm">
-            <%# Loops through drinks, displays and capitalizes first letter. %>
-                <ul>Drinks
-                    <% for(let i=0; i < drinks.length; i++){ %>
-                        <li><a href="/drinks/<%=i%>">
-                                <%=drinks[i].name %>
-                            </a> </li>
-                        <% } %>
-                </ul>
-                <ul>Food
-                    <% for(let i=0; i < food.length; i++){ %>
-                        <li><a href="/food/<%=i%>">
-                                <%=food[i].name%>
-                            </a> </li>
-                        <% } %>
-                </ul>
+            <h2> DRINKS</h2>
+            <ul>
+                <% for(let i=0; i < drinks.length; i++){ %>
+                <div class="menuitem"><a href="/drinks/<%=i%>">
+                        <%=drinks[i].name %>
+                    </a> </div>
+                <% } %>
+            </ul>
+            <br />
+            <h2>FOOD</h2>
+            <ul>
+                <% for(let i=0; i < food.length; i++){ %>
+                <div class="menuitem"><a href="/food/<%=i%>">
+                        <%=food[i].name%>
+                    </a> </div>
+                <% } %>
+            </ul>
         </div>
         <div class="col-sm">
 
