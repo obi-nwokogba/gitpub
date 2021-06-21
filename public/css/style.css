@@ -38,7 +38,18 @@ img.itemphoto{
 .price{
   color:white;
   margin-top:-70px;
-  font-size:4em;
+  font-size:5em;
+  text-shadow: 
+    1px 0px 1px rgb(4, 70, 21), 0px 1px 1px rgb(11, 83, 29), 
+    2px 1px 1px rgb(4, 70, 21), 1px 2px 1px rgb(11, 83, 29),
+    3px 2px 1px rgb(4, 70, 21), 2px 3px 1px rgb(11, 83, 29),
+    4px 3px 1px rgb(4, 70, 21), 3px 4px 1px rgb(11, 83, 29),
+    5px 4px 1px rgb(4, 70, 21), 4px 5px 1px rgb(11, 83, 29),
+    6px 5px 1px rgb(4, 70, 21), 5px 6px 1px rgb(11, 83, 29),
+    7px 6px 1px rgb(4, 70, 21);
+    /* Thank you to CSS Tricks. Modified their shadow
+    https://css-tricks.com/almanac/properties/t/text-shadow/
+    */
 }
 
 div.menuitem{
