@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <%- include('./partials/head'); %>
+</head>
+
+<body>
+    <%- include(`./partials/header`); %>
+
+    <a href="/drinks">Back to Today's Drink Menu </a>
+
+    <h1>At foo bar</h1>
+    <h2>
+        <%=drinks.name%>
+    </h2>
+
+    <img src="<%=drinks.image%>">
+    <h3>
+        $ <%=drinks.price%>
+    </h3>
+
+
+    <script src="" async defer></script>
+</body>
+
+</html>

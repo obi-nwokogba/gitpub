@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(208, 233, 223);
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  border-top:solid 10px rgb(47, 129, 86);
+}
+
+a {
+  color:rgb(24, 98, 60);
+  margin-bottom:8px;
+}
+
+img.toplogo {
+  max-width: 300px;
+}
+
+.footer{
+  margin:0 auto;
+  width:500;
+}
